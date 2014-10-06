@@ -243,8 +243,8 @@
     [super viewDidLoad];
     
     
-    _diccionario = @{@"2012": @{@"Broccoli" : @5.65, @"Carrots" : @12.6, @"Mushrooms" : @8.4},
-                     @"2013": @{@"Broccoli" : @4.35, @"Carrots" : @13.2, @"Mushrooms" : @4.6, @"Okra" : @0.6}};
+    _diccionario = @{@"2012": @{@"CONACYT" : @5.65, @"CONAGUA" : @12.6, @"CFE" : @8.4},
+                     @"2013": @{@"CONACYT" : @4.35, @"CONAGUA" : @13.2, @"CFE" : @4.6, @"IMSS" : @0.6}};
 
     
 

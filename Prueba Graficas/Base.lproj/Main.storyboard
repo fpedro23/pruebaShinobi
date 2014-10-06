@@ -62,8 +62,8 @@
                                     <action selector="displayBubbleChart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rTa-Oc-GNw"/>
                                 </connections>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="BXM-jA-Smt">
-                                <rect key="frame" x="432" y="28" width="92" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="BXM-jA-Smt">
+                                <rect key="frame" x="340" y="28" width="345" height="29"/>
                                 <segments>
                                     <segment title="2013"/>
                                     <segment title="2014"/>
@@ -77,8 +77,12 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="I8D-eZ-Gtx" secondAttribute="trailing" constant="46" id="0qg-J8-238"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="I8D-eZ-Gtx" secondAttribute="bottom" constant="25" id="1bF-ME-3dT"/>
+                            <constraint firstItem="BXM-jA-Smt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="87y-DV-z9G"/>
+                            <constraint firstItem="BXM-jA-Smt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Jgz-Yd-xKI"/>
                             <constraint firstItem="I8D-eZ-Gtx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="46" id="Xb8-ef-eMC"/>
+                            <constraint firstItem="BXM-jA-Smt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="324" id="g2X-hf-Wqb"/>
                             <constraint firstItem="I8D-eZ-Gtx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="386" id="ojS-Tf-XhB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BXM-jA-Smt" secondAttribute="trailing" constant="323" id="zhV-Ig-GlG"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
