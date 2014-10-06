@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class ShinobiChart;
+@class ChartsViewController;
 @interface ViewController : UIViewController
 
+@property ChartsViewController *chartController;
 
 @end
 
