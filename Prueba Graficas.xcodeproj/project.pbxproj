@@ -14,6 +14,7 @@
 		EB027A8819DE405D00EEDBF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB027A8719DE405D00EEDBF8 /* Images.xcassets */; };
 		EB027A8B19DE405D00EEDBF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB027A8919DE405D00EEDBF8 /* LaunchScreen.xib */; };
 		EB027A9719DE405D00EEDBF8 /* Prueba_GraficasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB027A9619DE405D00EEDBF8 /* Prueba_GraficasTests.m */; };
+		EB6F2A3A19E39C310037E013 /* FirstColumnTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6F2A3919E39C310037E013 /* FirstColumnTableViewController.m */; };
 		EB95BAF919E25AFD002951CB /* PieChartDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EB95BAF819E25AFD002951CB /* PieChartDataSource.m */; };
 		EBDD068319DE42F900BAE92C /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDD068219DE42F900BAE92C /* libc++.dylib */; };
 		EBDD068519DE430400BAE92C /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDD068419DE430400BAE92C /* ShinobiCharts.framework */; };
@@ -51,6 +52,8 @@
 		EB027A9019DE405D00EEDBF8 /* Prueba GraficasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prueba GraficasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB027A9519DE405D00EEDBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB027A9619DE405D00EEDBF8 /* Prueba_GraficasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prueba_GraficasTests.m; sourceTree = "<group>"; };
+		EB6F2A3819E39C310037E013 /* FirstColumnTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstColumnTableViewController.h; path = "Prueba Graficas/FirstColumnTableViewController.h"; sourceTree = "<group>"; };
+		EB6F2A3919E39C310037E013 /* FirstColumnTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstColumnTableViewController.m; path = "Prueba Graficas/FirstColumnTableViewController.m"; sourceTree = "<group>"; };
 		EB95BAF719E25AFD002951CB /* PieChartDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartDataSource.h; sourceTree = "<group>"; };
 		EB95BAF819E25AFD002951CB /* PieChartDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartDataSource.m; sourceTree = "<group>"; };
 		EBDD068219DE42F900BAE92C /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
@@ -96,6 +99,8 @@
 		EB027A6E19DE405D00EEDBF8 = {
 			isa = PBXGroup;
 			children = (
+				EB6F2A3819E39C310037E013 /* FirstColumnTableViewController.h */,
+				EB6F2A3919E39C310037E013 /* FirstColumnTableViewController.m */,
 				EBDD068119DE42DF00BAE92C /* Frameworks */,
 				EB027A7919DE405D00EEDBF8 /* Prueba Graficas */,
 				EB027A9319DE405D00EEDBF8 /* Prueba GraficasTests */,
@@ -275,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB95BAF919E25AFD002951CB /* PieChartDataSource.m in Sources */,
+				EB6F2A3A19E39C310037E013 /* FirstColumnTableViewController.m in Sources */,
 				EBDF333019DE55B700CA1A65 /* ColumnChartDataSource.m in Sources */,
 				EB027A8319DE405D00EEDBF8 /* ViewController.m in Sources */,
 				EBDD069819DE46C000BAE92C /* ChartsViewController.m in Sources */,
